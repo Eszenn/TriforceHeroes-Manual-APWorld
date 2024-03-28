@@ -1,0 +1,223 @@
+[
+	{
+		"name": "Clear Level - Deku Forest",
+		"region": "Woodlands",
+		"category": ["Woodlands"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Buzz Blob Cave",
+		"region": "Woodlands",
+		"category": ["Woodlands"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Moblin Base",
+		"region": "Woodlands",
+		"category": ["Woodlands"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Forest Temple",
+		"region": "Woodlands",
+		"category": ["Woodlands"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Secret Fortress",
+		"region": "Riverside",
+		"category": ["Riverside"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Abyss of Agony",
+		"region": "Riverside",
+		"category": ["Riverside"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Cove of Transition",
+		"region": "Riverside",
+		"category": ["Riverside"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Water Temple",
+		"region": "Riverside",
+		"category": ["Riverside"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Blazing Trail",
+		"region": "Volcano",
+		"category": ["Volcano"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Hinox Mine",
+		"region": "Volcano",
+		"category": ["Volcano"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Den of Flames",
+		"region": "Volcano",
+		"category": ["Volcano"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Fire Temple",
+		"category": ["Volcano"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Frozen Plateau",
+		"region": "Ice Cavern",
+		"category": ["Ice Cavern"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Snowball Ravine",
+		"region": "Ice Cavern",
+		"category": ["Ice Cavern"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Silver Shrine",
+		"region": "Ice Cavern",
+		"category": ["Ice Cavern"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Ice Temple",
+		"region": "Ice Cavern",
+		"category": ["Ice Cavern"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Sealed Gateway",
+		"region": "Fortress",
+		"category": ["Fortress"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Bomb Storage",
+		"region": "Fortress",
+		"category": ["Fortress"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Training Ground",
+		"region": "Fortress",
+		"category": ["Fortress"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - The Lady's Lair",
+		"region": "Fortress",
+		"category": ["Fortress"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Infinity Dunes",
+		"region": "The Dunes",
+		"category": ["The Dunes"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Stone Corridors",
+		"region": "The Dunes",
+		"category": ["The Dunes"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Gibdo Mausoleum",
+		"region": "The Dunes",
+		"category": ["The Dunes"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Desert Temple",
+		"region": "The Dunes",
+		"category": ["The Dunes"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Illusory Mansion",
+		"region": "The Ruins",
+		"category": ["The Ruins"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Palace Noir",
+		"region": "The Ruins",
+		"category": ["The Ruins"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Lone Labyrinth",
+		"region": "The Ruins",
+		"category": ["The Ruins"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Grim Temple",
+		"region": "The Ruins",
+		"category": ["The Ruins"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Floating Garden",
+		"region": "Sky Realm",
+		"category": ["Sky Realm"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Deception Castle",
+		"region": "Sky Realm",
+		"category": ["Sky Realm"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Dragon Citadel",
+		"region": "Sky Realm",
+		"category": ["Sky Realm"],
+		"requires": []
+	},
+	{
+		"name": "Clear Level - Sky Temple",
+		"region": "Sky Realm",
+		"category": ["Sky Realm"],
+		"requires": []
+	},
+	{
+		"name": "1",
+		"category": [],
+		"requires": []
+	},
+	{
+		"name": "2",
+		"category": [],
+		"requires": []
+	},
+	{
+		"name": "3",
+		"category": [],
+		"requires": []
+	},
+	{
+		"name": "4",
+		"category": [],
+		"requires": []
+	},
+	{
+		"name": "5",
+		"category": [],
+		"requires": []
+	},
+	{
+		"name": "6",
+		"category": [],
+		"requires": []
+	}
+]

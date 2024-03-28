@@ -1,0 +1,43 @@
+{
+	"Hytopia": 	{
+		"starting": true,
+		"connects_to": ["Woodlands","Riverside","Volcano","Ice Cavern","Fortress","The Dunes","The Ruins","Sky Realm","Den of Trials"],
+		"requires": []
+	},
+	"Woodlands": 	{
+		"connects_to": ["Hytopia"],
+		"requires": []
+	},
+	"Riverside": 	{
+		"connects_to": ["Hytopia"],
+		"requires": []
+	},
+	"Volcano": 	{
+		"connects_to": ["Hytopia"],
+		"requires": []
+	},
+	"Ice Cavern": 	{
+		"connects_to": ["Hytopia"],
+		"requires": []
+	},
+	"Fortress": 	{
+		"connects_to": ["Hytopia"],
+		"requires": []
+	},
+	"The Dunes": 	{
+		"connects_to": ["Hytopia"],
+		"requires": []
+	},
+	"The Ruins": 	{
+		"connects_to": ["Hytopia"],
+		"requires": []
+	},
+	"Sky Realm": 	{
+		"connects_to": ["Hytopia"],
+		"requires": []
+	},
+	"Den of Trials": 	{
+		"connects_to": ["Hytopia"],
+		"requires": []
+}
+}
