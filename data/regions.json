@@ -5,36 +5,164 @@
 		"requires": []
 	},
 	"Woodlands": 	{
-		"connects_to": ["Hytopia"],
+		"connects_to": ["Hytopia","Deku Forest","Buzz Blob Cave","Moblin Base","Forest Temple"],
 		"requires": []
+	},
+	"Deku Forest": 	{
+		"connects_to": ["Woodlands"],
+		"requires": "|Woodlands Level 1 - Deku Forest|"
+	},
+	"Buzz Blob Cave": 	{
+		"connects_to": ["Woodlands"],
+		"requires": "|Woodlands Level 2 - Buzz Blob Cave|"
+	},
+	"Moblin Base": 	{
+		"connects_to": ["Woodlands"],
+		"requires": "|Woodlands Level 3 - Moblin Base|"
+	},
+	"Forest Temple": 	{
+		"connects_to": ["Woodlands"],
+		"requires": "|Woodlands Level 4 - Forest Temple|"
 	},
 	"Riverside": 	{
 		"connects_to": ["Hytopia"],
 		"requires": []
 	},
+	"Secret Fortress": 	{
+		"connects_to": ["Riverside"],
+		"requires": "|Riverside Level 1 - Secret Fortress|"
+	},
+	"Abyss of Agony": 	{
+		"connects_to": ["Riverside"],
+		"requires": "|Riverside Level 2 - Abyss of Agony|"
+	},
+	"Cove of Transition": 	{
+		"connects_to": ["Riverside"],
+		"requires": "|Riverside Level 3 - Cove of Transition|"
+	},
+	"Water Temple": 	{
+		"connects_to": ["Riverside"],
+		"requires": "|Riverside Level 4 - Water Temple|"
+	},
 	"Volcano": 	{
 		"connects_to": ["Hytopia"],
 		"requires": []
+	},
+	"Blazing Trail": 	{
+		"connects_to": ["Volcano"],
+		"requires": "|Volcano Level 1 - Blazing Trail|"
+	},
+	"Hinox Mine": 	{
+		"connects_to": ["Volcano"],
+		"requires": "|Volcano Level 2 - Hinox Mine|"
+	},
+	"Den of Flames": 	{
+		"connects_to": ["Volcano"],
+		"requires": "|Volcano Level 3 - Den of Flames|"
+	},
+	"Fire Temple": 	{
+		"connects_to": ["Volcano"],
+		"requires": "|Volcano Level 4 - Fire Temple|"
 	},
 	"Ice Cavern": 	{
 		"connects_to": ["Hytopia"],
 		"requires": []
 	},
+	"Frozen Plateau": 	{
+		"connects_to": ["Ice Cavern"],
+		"requires": "|Ice Cavern Level 1 - Frozen Plateau|"
+	},
+	"Snowball Ravine": 	{
+		"connects_to": ["Ice Cavern"],
+		"requires": "|Ice Cavern Level 2 - Snowball Ravine|"
+	},
+	"Silver Shrine": 	{
+		"connects_to": ["Ice Cavern"],
+		"requires": "|Ice Cavern Level 3 - Silver Shrine|"
+	},
+	"Ice Temple": 	{
+		"connects_to": ["Ice Temple"],
+		"requires": "|Ice Cavern Level 4 - Ice Temple|"
+	},
 	"Fortress": 	{
 		"connects_to": ["Hytopia"],
 		"requires": []
+	},
+	"Sealed Gateway": 	{
+		"connects_to": ["Fortress"],
+		"requires": "|Fortress Level 1 - Sealed Gateway|"
+	},
+	"Bomb Storage": 	{
+		"connects_to": ["Fortress"],
+		"requires": "|Fortress Level 2 - Bomb Storage|"
+	},
+	"Training Ground": 	{
+		"connects_to": ["Fortress"],
+		"requires": "|Fortress Level 3 - Training Ground|"
+	},
+	"The Lady's Lair": 	{
+		"connects_to": ["Fortress"],
+		"requires": "|Fortress Level 4 - The Lady's Lair|"
 	},
 	"The Dunes": 	{
 		"connects_to": ["Hytopia"],
 		"requires": []
 	},
+	"Infinity Dunes": 	{
+		"connects_to": ["The Dunes"],
+		"requires": "|The Dunes Level 1 - Infinity Dunes|"
+	},
+	"Stone Corridors": 	{
+		"connects_to": ["The Dunes"],
+		"requires": "|The Dunes Level 2 - Stone Corridors|"
+	},
+	"Gibdo Mausoleum": 	{
+		"connects_to": ["The Dunes"],
+		"requires": "|The Dunes Level 3 - Gibdo Mausoleum|"
+	},
+	"Desert Temple": 	{
+		"connects_to": ["The Dunes"],
+		"requires": "|The Dunes Level 4 - Desert Temple|"
+	},
 	"The Ruins": 	{
 		"connects_to": ["Hytopia"],
 		"requires": []
 	},
+	"Illusory Mansion": 	{
+		"connects_to": ["The Ruins"],
+		"requires": "|The Ruins Level 1 - Illusory Mansion|"
+	},
+	"Palace Noir": 	{
+		"connects_to": ["The Ruins"],
+		"requires": "|The Ruins Level 2 - Palace Noir|"
+	},
+	"Lone Labyrinth": 	{
+		"connects_to": ["The Ruins"],
+		"requires": "|The Ruins Level 3 - Lone Labyrinth|"
+	},
+	"Grim Temple": 	{
+		"connects_to": ["The Ruins"],
+		"requires": "|The Ruins Level 4 - Grim Temple|"
+	},
 	"Sky Realm": 	{
 		"connects_to": ["Hytopia"],
 		"requires": []
+	},
+	"Floating Garden": 	{
+		"connects_to": ["Sky Realm"],
+		"requires": "|Sky Realm Level 1 - Floating Garden|"
+	},
+	"Deception Castle": 	{
+		"connects_to": ["Sky Realm"],
+		"requires": "|Sky Realm Level 2 - Deception Castle|"
+	},
+	"Dragon Citadel": 	{
+		"connects_to": ["Sky Realm"],
+		"requires": "|Sky Realm Level 3 - Dragon Citadel|"
+	},
+	"Sky Temple": 	{
+		"connects_to": ["Sky Realm"],
+		"requires": "|Sky Realm Level 4 - Sky Temple|"
 	},
 	"Den of Trials": 	{
 		"connects_to": ["Hytopia"],

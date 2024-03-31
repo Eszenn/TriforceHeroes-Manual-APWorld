@@ -1,0 +1,6 @@
+{
+    "Drablands Challenges": {
+        "yaml_option": ["include_drablands_challenges"],
+        "hidden": true
+    }
+}
