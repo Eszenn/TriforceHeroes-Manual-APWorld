@@ -1,0 +1,1078 @@
+[
+	{
+		"victory": true,
+		"name": "Defeat Lady Maud and Free Princess Styla From the Curse",
+		"region": "Hytopia",
+		"category": [],
+		"requires": "|Lady's Materials:3| AND |Sky Realm Level 4 - Sky Temple| AND |Weapons:3|"
+	},
+	{
+		"victory": true,
+		"name": "Defeat All Bosses",
+		"category": [],
+		"requires": "|Temples:8| AND |Lady's Materials:3| AND|Weapons:8|"
+	},
+	{
+		"victory": true,
+		"name": "Clear the Den of Trials",
+		"region": "Den of Trials",
+		"category": [],
+		"requires": "|Den of Trials| AND |Weapons:8|"
+	},
+	{
+		"name":	"Deku Forest: Stage 2 North Chest",
+		"region": "Deku Forest",
+		"category": ["Woodlands Level 1: Deku Forest"],
+		"requires": "|Bow|"
+	},
+	{
+		"name": "Deku Forest: Stage 2 West Chest",
+		"region": "Deku Forest",
+		"category": ["Woodlands Level 1: Deku Forest"],
+		"requires": "|Bow|"
+	},
+	{
+		"name": "Deku Forest: Stage 3 Ledge Chest",
+		"region": "Deku Forest",
+		"category": ["Woodlands Level 1: Deku Forest"],
+		"requires": "|Bow|"
+	},
+	{
+		"name": "Deku Forest: Stage 3 Chest by Moving Platform",
+		"region": "Deku Forest",
+		"category": ["Woodlands Level 1: Deku Forest"],
+		"requires": "|Bow|"
+	},
+	{
+		"name": "Deku Forest: Clear Stage",
+		"region": "Deku Forest",
+		"category": ["Woodlands Level 1: Deku Forest"],
+		"requires": "|Bow|"
+	},
+	{
+		"name": "Deku Forest: Clear Challenge One",
+		"region": "Deku Forest",
+		"category": ["Woodlands Level 1: Deku Forest", "Drablands Challenges"],
+		"requires": "|Bow|"
+	},
+	{
+		"name": "Deku Forest: Clear Challenge Two",
+		"region": "Deku Forest",
+		"category": ["Woodlands Level 1: Deku Forest", "Drablands Challenges"],
+		"requires": "|Bow|"
+	},
+	{
+		"name": "Deku Forest: Clear Challenge Three",
+		"region": "Deku Forest",
+		"category": ["Woodlands Level 1: Deku Forest", "Drablands Challenges"],
+		"requires": "|Bow|"
+	},
+	{
+		"name": "Buzz Blob Cave: Stage 2 Chest Past Locked Door",
+		"region": "Buzz Blob Cave",
+		"category": ["Woodlands Level 2: Buzz Blob Cave"],
+		"requires": "|Bow|"
+	},
+	{
+		"name": "Buzz Blob Cave: Stage 3 Chest on Ledge",
+		"region": "Buzz Blob Cave",
+		"category": ["Woodlands Level 2: Buzz Blob Cave"],
+		"requires": "|Bow|"
+	},
+	{
+		"name": "Buzz Blob Cave: Clear Stage",
+		"region": "Buzz Blob Cave",
+		"category": ["Woodlands Level 2: Buzz Blob Cave"],
+		"requires": "|Bow|"
+	},
+	{
+		"name": "Buzz Blob Cave: Clear Challenge One",
+		"region": "Buzz Blob Cave",
+		"category": ["Woodlands Level 2: Buzz Blob Cave", "Drablands Challenges"],
+		"requires": "|Bow|"
+	},
+	{
+		"name": "Buzz Blob Cave: Clear Challenge Two",
+		"region": "Buzz Blob Cave",
+		"category": ["Woodlands Level 2: Buzz Blob Cave", "Drablands Challenges"],
+		"requires": "|Bow|"
+	},
+	{
+		"name": "Buzz Blob Cave: Clear Challenge Three",
+		"region": "Buzz Blob Cave",
+		"category": ["Woodlands Level 2: Buzz Blob Cave", "Drablands Challenges"],
+		"requires": "|Bow|"
+	},
+	{
+		"name": "Moblin Base: Stage 2 Chest Behind Right Bombable Wall",
+		"region": "Moblin Base",
+		"category": ["Woodlands Level 3: Moblin Base"],
+		"requires": "|Bow| AND |Bomb|"
+	},
+	{
+		"name": "Moblin Base: Stage 2 Chest Behind Middle Bombable Wall",
+		"region": "Moblin Base",
+		"category": ["Woodlands Level 3: Moblin Base"],
+		"requires": "|Bow| AND |Bomb|"
+	},
+	{
+		"name": "Moblin Base: Clear Stage",
+		"region": "Moblin Base",
+		"category": ["Woodlands Level 3: Moblin Base"],
+		"requires": "|Bow| AND |Bomb|"
+	},
+	{
+		"name": "Moblin Base: Clear Challenge One",
+		"region": "Moblin Base",
+		"category": ["Woodlands Level 3: Moblin Base", "Drablands Challenges"],
+		"requires": "|Bow| AND |Bomb|"
+	},
+	{
+		"name": "Moblin Base: Clear Challenge Two",
+		"region": "Moblin Base",
+		"category": ["Woodlands Level 3: Moblin Base", "Drablands Challenges"],
+		"requires": "|Bow| AND |Bomb|"
+	},
+	{
+		"name": "Moblin Base: Clear Challenge Three",
+		"region": "Moblin Base",
+		"category": ["Woodlands Level 3: Moblin Base", "Drablands Challenges"],
+		"requires": "|Bow| AND |Bomb|"
+	},
+	{
+		"name": "Forest Temple: Clear Stage",
+		"region": "Forest Temple",
+		"category": ["Woodlands Level 4: Forest Temple"],
+		"requires": "|Bow| AND |Bomb|"
+	},
+	{
+		"name": "Forest Temple: Clear Challenge One",
+		"region": "Forest Temple",
+		"category": ["Woodlands Level 4: Forest Temple", "Drablands Challenges"],
+		"requires": "|Bow| AND |Bomb|"
+	},
+	{
+		"name": "Forest Temple: Clear Challenge Two",
+		"region": "Forest Temple",
+		"category": ["Woodlands Level 4: Forest Temple", "Drablands Challenges"],
+		"requires": "|Bow| AND |Bomb|"
+	},
+	{
+		"name": "Forest Temple: Clear Challenge Three",
+		"region": "Forest Temple",
+		"category": ["Woodlands Level 4: Forest Temple", "Drablands Challenges"],
+		"requires": "|Bow| AND |Bomb|"
+	},
+	{
+		"name": "Secret Fortress: Clear Stage",
+		"region": "Secret Fortress",
+		"category": ["Riverside Level 1: Secret Fortress"],
+		"requires": "|Water Rod|"
+	},
+	{
+		"name": "Secret Fortress: Clear Challenge One",
+		"region": "Secret Fortress",
+		"category": ["Riverside Level 1: Secret Fortress", "Drablands Challenges"],
+		"requires": "|Water Rod|"
+	},
+	{
+		"name": "Secret Fortress: Clear Challenge Two",
+		"region": "Secret Fortress",
+		"category": ["Riverside Level 1: Secret Fortress", "Drablands Challenges"],
+		"requires": "|Water Rod|"
+	},
+	{
+		"name": "Secret Fortress: Clear Challenge Three",
+		"region": "Secret Fortress",
+		"category": ["Riverside Level 1: Secret Fortress", "Drablands Challenges"],
+		"requires": "|Water Rod|"
+	},
+	{
+		"name": "Abyss of Agony: Stage 1 Chest on Long Island",
+		"region": "Abyss of Agony",
+		"category": ["Riverside Level 2: Abyss of Agony"],
+		"requires": []
+	},
+	{
+		"name": "Abyss of Agony: Stage 3 Chest on Wood Platform",
+		"region": "Abyss of Agony",
+		"category": ["Riverside Level 2: Abyss of Agony"],
+		"requires": "|Bow| AND |Water Rod|"
+	},
+	{
+		"name": "Abyss of Agony: Clear Stage",
+		"region": "Abyss of Agony",
+		"category": ["Riverside Level 2: Abyss of Agony", "Drablands Challenges"],
+		"requires": "|Bow| AND |Water Rod|"
+	},
+	{
+		"name": "Abyss of Agony: Clear Challenge One",
+		"region": "Abyss of Agony",
+		"category": ["Riverside Level 2: Abyss of Agony", "Drablands Challenges"],
+		"requires": "|Bow| AND |Water Rod|"
+	},
+	{
+		"name": "Abyss of Agony: Clear Challenge Two",
+		"region": "Abyss of Agony",
+		"category": ["Riverside Level 2: Abyss of Agony", "Drablands Challenges"],
+		"requires": "|Bow| AND |Water Rod|"
+	},
+	{
+		"name": "Abyss of Agony: Clear Challenge Three",
+		"region": "Abyss of Agony",
+		"category": ["Riverside Level 2: Abyss of Agony", "Drablands Challenges"],
+		"requires": "|Bow| AND |Water Rod|"
+	},
+	{
+		"name": "Cove of Transition: Clear Stage",
+		"region": "Cove of Transition",
+		"category": ["Riverside Level 3: Cove of Transition"],
+		"requires": "|Gripshot|"
+	},
+	{
+		"name": "Cove of Transition: Clear Challenge One",
+		"region": "Cove of Transition",
+		"category": ["Riverside Level 3: Cove of Transition", "Drablands Challenges"],
+		"requires": "|Gripshot|"
+	},
+	{
+		"name": "Cove of Transition: Clear Challenge Two",
+		"region": "Cove of Transition",
+		"category": ["Riverside Level 3: Cove of Transition", "Drablands Challenges"],
+		"requires": "|Gripshot|"
+	},
+	{
+		"name": "Cove of Transition: Clear Challenge Three",
+		"region": "Cove of Transition",
+		"category": ["Riverside Level 3: Cove of Transition", "Drablands Challenges"],
+		"requires": "|Gripshot|"
+	},
+	{
+		"name": "Water Temple: Stage 3 Top Left Chest",
+		"region": "Water Temple",
+		"category": ["Riverside Level 4: Water Temple"],
+		"requires": "|Gripshot| AND |Water Rod|"
+	},
+	{
+		"name": "Water Temple: Clear Stage",
+		"region": "Water Temple",
+		"category": ["Riverside Level 4: Water Temple"],
+		"requires": "|Gripshot| AND |Water Rod|"
+	},
+	{
+		"name": "Water Temple: Clear Challenge One",
+		"region": "Water Temple",
+		"category": ["Riverside Level 4: Water Temple", "Drablands Challenges"],
+		"requires": "|Gripshot| AND |Water Rod|"
+	},
+	{
+		"name": "Water Temple: Clear Challenge Two",
+		"region": "Water Temple",
+		"category": ["Riverside Level 4: Water Temple", "Drablands Challenges"],
+		"requires": "|Gripshot| AND |Water Rod|"
+	},
+	{
+		"name": "Water Temple: Clear Challenge Three",
+		"region": "Water Temple",
+		"category": ["Riverside Level 4: Water Temple", "Drablands Challenges"],
+		"requires": "|Gripshot| AND |Water Rod|"
+	},
+	{
+		"name": "Blazing Trail: Stage 1 Chest up the Mountain",
+		"region": "Blazing Trail",
+		"category": ["Volcano Level 1: Blazing Trail"],
+		"requires": "|Boomerang|"
+	},
+	{
+		"name": "Blazing Trail: Stage 3 Chest Across the Lava Lake",
+		"region": "Blazing Trail",
+		"category": ["Volcano Level 1: Blazing Trail", "Drablands Challenges"],
+		"requires": "|Boomerang|"
+	},
+	{
+		"name": "Blazing Trail: Stage 4 Chest on Top Left Island",
+		"region": "Blazing Trail",
+		"category": ["Volcano Level 1: Blazing Trail"],
+		"requires": "|Boomerang|"
+	},
+	{
+		"name": "Blazing Trail: Stage 4 Chest on Right Island",
+		"region": "Blazing Trail",
+		"category": ["Volcano Level 1: Blazing Trail"],
+		"requires": "|Boomerang|"
+	},
+	{
+		"name": "Blazing Trail: Clear Stage",
+		"region": "Blazing Trail",
+		"category": ["Volcano Level 1: Blazing Trail"],
+		"requires": "|Boomerang|"
+	},
+	{
+		"name": "Blazing Trail: Clear Challenge One",
+		"region": "Blazing Trail",
+		"category": ["Volcano Level 1: Blazing Trail", "Drablands Challenges"],
+		"requires": "|Boomerang|"
+	},
+	{
+		"name": "Blazing Trail: Clear Challenge Two",
+		"region": "Blazing Trail",
+		"category": ["Volcano Level 1: Blazing Trail", "Drablands Challenges"],
+		"requires": "|Boomerang|"
+	},
+	{
+		"name": "Blazing Trail: Clear Challenge Three",
+		"region": "Blazing Trail",
+		"category": ["Volcano Level 1: Blazing Trail", "Drablands Challenges"],
+		"requires": "|Boomerang|"
+	},
+	{
+		"name": "Hinox Mine: Clear Stage",
+		"region": "Hinox Mine",
+		"category": ["Volcano Level 2: Hinox Mine"],
+		"requires": "|Bow| AND |Boomerang|"
+	},
+	{
+		"name": "Hinox Mine: Clear Challenge One",
+		"region": "Hinox Mine",
+		"category": ["Volcano Level 2: Hinox Mine", "Drablands Challenges"],
+		"requires": "|Bow| AND |Boomerang|"
+	},
+	{
+		"name": "Hinox Mine: Clear Challenge Two",
+		"region": "Hinox Mine",
+		"category": ["Volcano Level 2: Hinox Mine", "Drablands Challenges"],
+		"requires": "|Bow| AND |Boomerang|"
+	},
+	{
+		"name": "Hinox Mine: Clear Challenge Three",
+		"region": "Hinox Mine",
+		"category": ["Volcano Level 2: Hinox Mine", "Drablands Challenges"],
+		"requires": "|Bow| AND |Boomerang|"
+	},
+	{
+		"name": "Den of Flames: Stage 1 Chest Surrounded by Fire",
+		"region": "Den of Flames",
+		"category": ["Volcano Level 3: Den of Flames"],
+		"requires": "|Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Den of Flames: Stage 1 Chest by Swinging Platforms",
+		"region": "Den of Flames",
+		"category": ["Volcano Level 3: Den of Flames"],
+		"requires": "|Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Den of Flames: Clear Stage",
+		"region": "Den of Flames",
+		"category": ["Volcano Level 3: Den of Flames"],
+		"requires": "|Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Den of Flames: Clear Challenge One",
+		"region": "Den of Flames",
+		"category": ["Volcano Level 3: Den of Flames", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Den of Flames: Clear Challenge Two",
+		"region": "Den of Flames",
+		"category": ["Volcano Level 3: Den of Flames", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Den of Flames: Clear Challenge Three",
+		"region": "Den of Flames",
+		"category": ["Volcano Level 3: Den of Flames", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Fire Temple: Stage 3 Chest on Short Tower",
+		"region": "Fire Temple",
+		"category": ["Volcano Level 4: Fire Temple"],
+		"requires": "|Bow| AND |Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Fire Temple: Stage 3 Chest on Tall Tower",
+		"region": "Fire Temple",
+		"category": ["Volcano Level 4: Fire Temple"],
+		"requires": "|Bow| AND |Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Fire Temple: Clear Stage",
+		"region": "Fire Temple",
+		"category": ["Volcano Level 4: Fire Temple"],
+		"requires": "|Bow| AND |Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Fire Temple: Clear Challenge One",
+		"region": "Fire Temple",
+		"category": ["Volcano Level 4: Fire Temple", "Drablands Challenges"],
+		"requires": "|Bow| AND |Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Fire Temple: Clear Challenge Two",
+		"region": "Fire Temple",
+		"category": ["Volcano Level 4: Fire Temple", "Drablands Challenges"],
+		"requires": "|Bow| AND |Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Fire Temple: Clear Challenge Three",
+		"region": "Fire Temple",
+		"category": ["Volcano Level 4: Fire Temple", "Drablands Challenges"],
+		"requires": "|Bow| AND |Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Frozen Plateau: Stage 1 Chest on Ice",
+		"region": "Frozen Plateau",
+		"category": ["Ice Cavern Level 1: Frozen Plateau"],
+		"requires": ""
+	},
+	{
+		"name": "Frozen Plateau: Stage 1 Chest on Hill",
+		"region": "Frozen Plateau",
+		"category": ["Ice Cavern Level 1: Frozen Plateau"],
+		"requires": ""
+	},
+	{
+		"name": "Frozen Plateau: Clear Stage",
+		"region": "Frozen Plateau",
+		"category": ["Ice Cavern Level 1: Frozen Plateau"],
+		"requires": "|Fire Gloves|"
+	},
+	{
+		"name": "Frozen Plateau: Clear Challenge One",
+		"region": "Frozen Plateau",
+		"category": ["Ice Cavern Level 1: Frozen Plateau", "Drablands Challenges"],
+		"requires": "|Fire Gloves|"
+	},
+	{
+		"name": "Frozen Plateau: Clear Challenge Two",
+		"region": "Frozen Plateau",
+		"category": ["Ice Cavern Level 1: Frozen Plateau", "Drablands Challenges"],
+		"requires": "|Fire Gloves|"
+	},
+	{
+		"name": "Frozen Plateau: Clear Challenge Three",
+		"region": "Frozen Plateau",
+		"category": ["Ice Cavern Level 1: Frozen Plateau"],
+		"requires": "|Fire Gloves|"
+	},
+	{
+		"name": "Snowabll Ravine: Stage 2 Right Chest on Small Island",
+		"region": "Snowball Ravine",
+		"category": ["Ice Cavern Level 2: Snowball Ravine"],
+		"requires": "|Boomerang| AND |Fire Gloves|"
+	},
+	{
+		"name": "Snowball Ravine: Stage 2 Bottom Chest on Small Island",
+		"region": "Snowball Ravine",
+		"category": ["Ice Cavern Level 2: Snowball Ravine"],
+		"requires": "|Boomerang| AND |Fire Gloves|"
+	},
+	{
+		"name": "Snowabll Ravine: Clear Stage",
+		"region": "Snowball Ravine",
+		"category": ["Ice Cavern Level 2: Snowball Ravine"],
+		"requires": "|Boomerang| AND |Fire Gloves|"
+	},
+	{
+		"name": "Snowabll Ravine: Clear Challenge One",
+		"region": "Snowball Ravine",
+		"category": ["Ice Cavern Level 2: Snowball Ravine", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Fire Gloves|"
+	},
+	{
+		"name": "Snowabll Ravine: Clear Challenge Two",
+		"region": "Snowball Ravine",
+		"category": ["Ice Cavern Level 2: Snowball Ravine", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Fire Gloves|"
+	},
+	{
+		"name": "Snowabll Ravine: Clear Challenge Three",
+		"region": "Snowball Ravine",
+		"category": ["Ice Cavern Level 2: Snowball Ravine", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Fire Gloves|"
+	},
+	{
+		"name": "Silver Shrine: Stage 1 Frozen Chest",
+		"region": "Silver Shrine",
+		"category": ["Ice Cavern Level 3: Silver Shrine"],
+		"requires": "|Magic Hammer|"
+	},
+	{
+		"name": "Silver Shrine: Stage 1 Chest Behind Ice Wall",
+		"region": "Silver Shrine",
+		"category": ["Ice Cavern Level 3: Silver Shrine"],
+		"requires": "|Magic Hammer|"
+	},
+	{
+		"name": "Silver Shrine: Stage 2 Chest on Ice",
+		"region": "Silver Shrine",
+		"category": ["Ice Cavern Level 3: Silver Shrine"],
+		"requires": "|Magic Hammer|"
+	},
+	{
+		"name": "Silver Shrine: Clear Stage",
+		"region": "Silver Shrine",
+		"category": ["Ice Cavern Level 3: Silver Shrine"],
+		"requires": "|Magic Hammer|"
+	},
+	{
+		"name": "Silver Shrine: Clear Challenge One",
+		"region": "Silver Shrine",
+		"category": ["Ice Cavern Level 3: Silver Shrine", "Drablands Challenges"],
+		"requires": "|Magic Hammer|"
+	},
+	{
+		"name": "Silver Shrine: Clear Challenge Two",
+		"region": "Silver Shrine",
+		"category": ["Ice Cavern Level 3: Silver Shrine", "Drablands Challenges"],
+		"requires": "|Magic Hammer|"
+	},
+	{
+		"name": "Silver Shrine: Clear Challenge Three",
+		"region": "Silver Shrine",
+		"category": ["Ice Cavern Level 3: Silver Shrine", "Drablands Challenges"],
+		"requires": "|Magic Hammer|"
+	},
+	{
+		"name": "Ice Temple: Stage 3 Chest on Ledge",
+		"region": "Ice Temple",
+		"category": ["Ice Cavern Level 4: Ice Temple"],
+		"requires": "|Fire Gloves| AND |Magic Hammer|"
+	},
+	{
+		"name": "Ice Temple: Clear Stage",
+		"region": "Ice Temple",
+		"category": ["Ice Cavern Level 4: Ice Temple"],
+		"requires": "|Fire Gloves| AND |Magic Hammer|"
+	},
+	{
+		"name": "Ice Temple: Clear Challenge One",
+		"region": "Ice Temple",
+		"category": ["Ice Cavern Level 4: Ice Temple", "Drablands Challenges"],
+		"requires": "|Fire Gloves| AND |Magic Hammer|"
+	},
+	{
+		"name": "Ice Temple: Clear Challenge Two",
+		"region": "Ice Temple",
+		"category": ["Ice Cavern Level 4: Ice Temple", "Drablands Challenges"],
+		"requires": "|Fire Gloves| AND |Magic Hammer|"
+	},
+	{
+		"name": "Ice Temple: Clear Challenge Three",
+		"region": "Ice Temple",
+		"category": ["Ice Cavern Level 4: Ice Temple", "Drablands Challenges"],
+		"requires": "|Fire Gloves| AND |Magic Hammer|"
+	},
+	{
+		"name": "Sealed Gateway: Stage 3 Chest Behind Switch Blocks",
+		"region": "Sealed Gateway",
+		"category": ["Fortress Level 1: Sealed Gateway"],
+		"requires": "|Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Sealed Gateway: Stage 3 Left Chest on Tall Ledge",
+		"region": "Sealed Gateway",
+		"category": ["Fortress Level 1: Sealed Gateway"],
+		"requires": "|Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Sealed Gateway: Stage 3 Right Chest on Tall Ledge",
+		"region": "Sealed Gateway",
+		"category": ["Fortress Level 1: Sealed Gateway"],
+		"requires": "|Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Sealed Gateway: Stage 4 Chest by Elevator",
+		"region": "Sealed Gateway",
+		"category": ["Fortress Level 1: Sealed Gateway"],
+		"requires": "|Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Sealed Gateway: Clear Stage",
+		"region": "Sealed Gateway",
+		"category": ["Fortress Level 1: Sealed Gateway"],
+		"requires": "|Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Sealed Gateway: Clear Challenge One",
+		"region": "Sealed Gateway",
+		"category": ["Fortress Level 1: Sealed Gateway", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Sealed Gateway: Clear Challenge Two",
+		"region": "Sealed Gateway",
+		"category": ["Fortress Level 1: Sealed Gateway", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Sealed Gateway: Clear Challenge Three",
+		"region": "Sealed Gateway",
+		"category": ["Fortress Level 1: Sealed Gateway", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Gust Jar|"
+	},
+	{
+		"name": "Bomb Storage: Stage 1 Chest on Narrow Ledge",
+		"region": "Bomb Storage",
+		"category": ["Fortress Level 2: Bomb Storage"],
+		"requires": "|Bomb| AND |Gust Jar|"
+	},
+	{
+		"name": "Bomb Storage: Clear Stage",
+		"region": "Bomb Storage",
+		"category": ["Fortress Level 2: Bomb Storage"],
+		"requires": "|Bomb| AND |Gust Jar|"
+	},
+	{
+		"name": "Bomb Storage: Clear Challenge One",
+		"region": "Bomb Storage",
+		"category": ["Fortress Level 2: Bomb Storage", "Drablands Challenges"],
+		"requires": "|Bomb| AND |Gust Jar|"
+	},
+	{
+		"name": "Bomb Storage: Clear Challenge Two",
+		"region": "Bomb Storage",
+		"category": ["Fortress Level 2: Bomb Storage", "Drablands Challenges"],
+		"requires": "|Bomb| AND |Gust Jar|"
+	},
+	{
+		"name": "Bomb Storage: Clear Challenge Three",
+		"region": "Bomb Storage",
+		"category": ["Fortress Level 2: Bomb Storage", "Drablands Challenges"],
+		"requires": "|Bomb| AND |Gust Jar|"
+	},
+	{
+		"name": "Training Ground: Stage 4 Chest by Exit",
+		"region": "Training Ground",
+		"category": ["Fortress Level 3: Training Ground"],
+		"requires": "|Bow| AND |Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "Training Ground: Clear Stage",
+		"region": "Training Ground",
+		"category": ["Fortress Level 3: Training Ground"],
+		"requires": "|Bow| AND |Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "Training Ground: Clear Challenge One",
+		"region": "Training Ground",
+		"category": ["Fortress Level 3: Training Ground", "Drablands Challenges"],
+		"requires": "|Bow| AND |Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "Training Ground: Clear Challenge Two",
+		"region": "Training Ground",
+		"category": ["Fortress Level 3: Training Ground", "Drablands Challenges"],
+		"requires": "|Bow| AND |Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "Training Ground: Clear Challenge Three",
+		"region": "Training Ground",
+		"category": ["Fortress Level 3: Training Ground", "Drablands Challenges"],
+		"requires": "|Bow| AND |Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "The Lady's Lair: Stage 2 Chest at Top of Elevator",
+		"region": "The Lady's Lair",
+		"category": ["Fortress Level 4: The Lady's Lair"],
+		"requires": "|Boomerang| AND |Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "The Lady's Lair: Stage 3 Chest on Hill",
+		"region": "The Lady's Lair",
+		"category": ["Fortress Level 4: The Lady's Lair"],
+		"requires": "|Boomerang| AND |Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "The Lady's Lair: Clear Stage",
+		"region": "The Lady's Lair",
+		"category": ["Fortress Level 4: The Lady's Lair"],
+		"requires": "|Boomerang| AND |Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "The Lady's Lair: Clear Challenge One",
+		"region": "The Lady's Lair",
+		"category": ["Fortress Level 4: The Lady's Lair", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "The Lady's Lair: Clear Challenge Two",
+		"region": "The Lady's Lair",
+		"category": ["Fortress Level 4: The Lady's Lair", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "The Lady's Lair: Clear Challenge Three",
+		"region": "The Lady's Lair",
+		"category": ["Fortress Level 4: The Lady's Lair", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "Infinity Dunes: Stage 3 Chest on Sandfall",
+		"region": "Infinity Dunes",
+		"category": ["The Dunes Level 1: Infinity Dunes"],
+		"requires": "|Gust Jar| AND |Water Rod|"
+	},
+	{
+		"name": "Infinity Dunes: Clear Stage",
+		"region": "Infinity Dunes",
+		"category": ["The Dunes Level 1: Infinity Dunes"],
+		"requires": "|Gust Jar| AND |Water Rod|"
+	},
+	{
+		"name": "Infinity Dunes: Clear Challenge One",
+		"region": "Infinity Dunes",
+		"category": ["The Dunes Level 1: Infinity Dunes"],
+		"requires": "|Gust Jar| AND |Water Rod|"
+	},
+	{
+		"name": "Infinity Dunes: Clear Challenge Two",
+		"region": "Infinity Dunes",
+		"category": ["The Dunes Level 1: Infinity Dunes"],
+		"requires": "|Gust Jar| AND |Water Rod|"
+	},
+	{
+		"name": "Infinity Dunes: Clear Challenge Three",
+		"region": "Infinity Dunes",
+		"category": ["The Dunes Level 1: Infinity Dunes"],
+		"requires": "|Gust Jar| AND |Water Rod|"
+	},
+	{
+		"name": "Stone Corridors: Clear Stage",
+		"region": "Stone Corridors",
+		"category": ["The Dunes Level 2: Stone Corridors"],
+		"requires": "|Boomerang| AND |Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "Stone Corridors: Clear Challenge One",
+		"region": "Stone Corridors",
+		"category": ["The Dunes Level 2: Stone Corridors", "Drablands Challenges"],
+		"requires": "|Bow| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Stone Corridors: Clear Challenge Two",
+		"region": "Stone Corridors",
+		"category": ["The Dunes Level 2: Stone Corridors", "Drablands Challenges"],
+		"requires": "|Bow| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Stone Corridors: Clear Challenge Three",
+		"region": "Stone Corridors",
+		"category": ["The Dunes Level 2: Stone Corridors", "Drablands Challenges"],
+		"requires": "|Bow| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Gibdo Mausoleum: Clear Stage",
+		"region": "Gibdo Mausoleum",
+		"category": ["The Dunes Level 3: Gibdo Mausoleum"],
+		"requires": "|Gripshot| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Gibdo Mausoleum: Clear Challenge One",
+		"region": "Gibdo Mausoleum",
+		"category": ["The Dunes Level 3: Gibdo Mausoleum", "Drablands Challenges"],
+		"requires": "|Gripshot| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Gibdo Mausoleum: Clear Challenge Two",
+		"region": "Gibdo Mausoleum",
+		"category": ["The Dunes Level 3: Gibdo Mausoleum", "Drablands Challenges"],
+		"requires": "|Gripshot| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Gibdo Mausoleum: Clear Challenge Three",
+		"region": "Gibdo Mausoleum",
+		"category": ["The Dunes Level 3: Gibdo Mausoleum", "Drablands Challenges"],
+		"requires": "|Gripshot| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Desert Temple: Clear Stage",
+		"region": "Desert Temple",
+		"category": ["The Dunes Level 4: Desert Temple"],
+		"requires": "|Boomerang| AND |Magic Hammer|"
+	},
+	{
+		"name": "Desert Temple: Clear Challenge One",
+		"region": "Desert Temple",
+		"category": ["The Dunes Level 4: Desert Temple", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Magic Hammer|"
+	},
+	{
+		"name": "Desert Temple: Clear Challenge Two",
+		"region": "Desert Temple",
+		"category": ["The Dunes Level 4: Desert Temple", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Magic Hammer|"
+	},
+	{
+		"name": "Desert Temple: Clear Challenge Three",
+		"region": "Desert Temple",
+		"category": ["The Dunes Level 4: Desert Temple", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Magic Hammer|"
+	},
+	{
+		"name": "Illusory Mansion: Stage 3 Chest Behind Gate",
+		"region": "Illusory Mansion",
+		"category": ["The Ruins Level 1: Illusory Mansion"],
+		"requires": "|Boomerang|"
+	},
+	{
+		"name": "Illusory Mansion: Stage 4 Chest From Defeating Poes",
+		"region": "Illusory Mansion",
+		"category": ["The Ruins Level 1: Illusory Mansion"],
+		"requires": "|Boomerang|"
+	},
+	{
+		"name": "Illusory Mansion: Clear Stage",
+		"region": "Illusory Mansion",
+		"category": ["The Ruins Level 1: Illusory Mansion"],
+		"requires": "|Boomerang|"
+	},
+	{
+		"name": "Illusory Mansion: Clear Challenge One",
+		"region": "Illusory Mansion",
+		"category": ["The Ruins Level 1: Illusory Mansion", "Drablands Challenges"],
+		"requires": "|Boomerang|"
+	},
+	{
+		"name": "Illusory Mansion: Clear Challenge Two",
+		"region": "Illusory Mansion",
+		"category": ["The Ruins Level 1: Illusory Mansion", "Drablands Challenges"],
+		"requires": "|Boomerang|"
+	},
+	{
+		"name": "Illusory Mansion: Clear Challenge Three",
+		"region": "Illusory Mansion",
+		"category": ["The Ruins Level 1: Illusory Mansion", "Drablands Challenges"],
+		"requires": "|Boomerang|"
+	},
+	{
+		"name": "Palace Noir: Stage 2 Chest by Exit",
+		"region": "Palace Noir",
+		"category": ["The Ruins Level 2: Palace Noir"],
+		"requires": "|Bow| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Palace Noir: Clear Stage",
+		"region": "Palace Noir",
+		"category": ["The Ruins Level 2: Palace Noir"],
+		"requires": "|Bow| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Palace Noir: Clear Challenge One",
+		"region": "Palace Noir",
+		"category": ["The Ruins Level 2: Palace Noir", "Drablands Challenges"],
+		"requires": "|Bow| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Palace Noir: Clear Challenge Two",
+		"region": "Palace Noir",
+		"category": ["The Ruins Level 2: Palace Noir", "Drablands Challenges"],
+		"requires": "|Bow| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Palace Noir: Clear Challenge Three",
+		"region": "Palace Noir",
+		"category": ["The Ruins Level 2: Palace Noir", "Drablands Challenges"],
+		"requires": "|Bow| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Lone Labyrinth: Stage 2 Chest on Ledge",
+		"region": "Lone Labyrinth",
+		"category": ["The Ruins Level 3: Lone Labyrinth"],
+		"requires": "|Gripshot| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Lone Labyrinth: Stage 2 Chest Across Gap",
+		"region": "Lone Labyrinth",
+		"category": ["The Ruins Level 3: Lone Labyrinth"],
+		"requires": "|Gripshot| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Lone Labyrinth: Stage 3 Far Right Chest",
+		"region": "Lone Labyrinth",
+		"category": ["The Ruins Level 3: Lone Labyrinth"],
+		"requires": "|Gripshot| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Lone Labyrinth: Clear Stage",
+		"region": "Lone Labyrinth",
+		"category": ["The Ruins Level 3: Lone Labyrinth"],
+		"requires": "|Gripshot| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Lone Labyrinth: Clear Challenge One",
+		"region": "Lone Labyrinth",
+		"category": ["The Ruins Level 3: Lone Labyrinth", "Drablands Challenges"],
+		"requires": "|Gripshot| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Lone Labyrinth: Clear Challenge Two",
+		"region": "Lone Labyrinth",
+		"category": ["The Ruins Level 3: Lone Labyrinth", "Drablands Challenges"],
+		"requires": "|Gripshot| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Lone Labyrinth: Clear Challenge Three",
+		"region": "Lone Labyrinth",
+		"category": ["The Ruins Level 3: Lone Labyrinth", "Drablands Challenges"],
+		"requires": "|Gripshot| AND |Gust Jar| AND |Fire Gloves|"
+	},
+	{
+		"name": "Grim Temple: Clear Stage",
+		"region": "Grim Temple",
+		"category": ["The Ruins Level 4: Grim Temple"],
+		"requires": "|Boomerang| AND |Gripshot| AND |Fire Gloves|"
+	},
+	{
+		"name": "Grim Temple: Clear Challenge One",
+		"region": "Grim Temple",
+		"category": ["The Ruins Level 4: Grim Temple", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Gripshot| AND |Fire Gloves|"
+	},
+	{
+		"name": "Grim Temple: Clear Challenge Two",
+		"region": "Grim Temple",
+		"category": ["The Ruins Level 4: Grim Temple", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Gripshot| AND |Fire Gloves|"
+	},
+	{
+		"name": "Grim Temple: Clear Challenge Three",
+		"region": "Grim Temple",
+		"category": ["The Ruins Level 4: Grim Temple", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Gripshot| AND |Fire Gloves|"
+	},
+	{
+		"name": "Floating Garden: Stage 2 Chest on Pillar",
+		"region": "Floating Garden",
+		"category": ["Sky Realm Level 1: Floating Garden"],
+		"requires": "|Bow| AND |Gripshot| AND |Bomb|"
+	},
+	{
+		"name": "Floating Garden: Stage 4 Left Chest by Exit",
+		"region": "Floating Garden",
+		"category": ["Sky Realm Level 1: Floating Garden"],
+		"requires": "|Bow| AND |Gripshot| AND |Bomb|"
+	},
+	{
+		"name": "Floating Garden: Stage 4 Right Chest by Exit",
+		"region": "Floating Garden",
+		"category": ["Sky Realm Level 1: Floating Garden"],
+		"requires": "|Bow| AND |Gripshot| AND |Bomb|"
+	},
+	{
+		"name": "Floating Garden: Clear Stage",
+		"region": "Floating Garden",
+		"category": ["Sky Realm Level 1: Floating Garden"],
+		"requires": "|Bow| AND |Gripshot| AND |Bomb|"
+	},
+	{
+		"name": "Floating Garden: Clear Challenge One",
+		"region": "Floating Garden",
+		"category": ["Sky Realm Level 1: Floating Garden", "Drablands Challenges"],
+		"requires": "|Bow| AND |Gripshot| AND |Bomb|"
+	},
+	{
+		"name": "Floating Garden: Clear Challenge Two",
+		"region": "Floating Garden",
+		"category": ["Sky Realm Level 1: Floating Garden", "Drablands Challenges"],
+		"requires": "|Bow| AND |Gripshot| AND |Bomb|"
+	},
+	{
+		"name": "Floating Garden: Clear Challenge Three",
+		"region": "Floating Garden",
+		"category": ["Fortress Level 1: Sealed Gateway", "Drablands Challenges"],
+		"requires": "|Bow| AND |Gripshot| AND |Bomb|"
+	},
+	{
+		"name": "Deception Castle: Clear Stage",
+		"region": "Deception Castle",
+		"category": ["Sky Realm Level 2: Deception Castle"],
+		"requires": "|Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "Deception Castle: Clear Challenge One",
+		"region": "Deception Castle",
+		"category": ["Sky Realm Level 2: Deception Castle", "Drablands Challenges"],
+		"requires": "|Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "Deception Castle: Clear Challenge Two",
+		"region": "Deception Castle",
+		"category": ["Sky Realm Level 2: Deception Castle", "Drablands Challenges"],
+		"requires": "|Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "Deception Castle: Clear Challenge Three",
+		"region": "Deception Castle",
+		"category": ["Sky Realm Level 2: Deception Castle", "Drablands Challenges"],
+		"requires": "|Gripshot| AND |Gust Jar|"
+	},
+	{
+		"name": "Dragon Citadel: Stage 1 Chest in the Wind",
+		"region": "Dragon Citadel",
+		"category": ["Sky Realm Level 3: Dragon Citadel"],
+		"requires": "|Boomerang| AND |Water Rod| AND |Magic Hammer|"
+	},
+	{
+		"name": "Dragon Citadel: Stage 3 Left Chest Down the Stairs",
+		"region": "Dragon Citadel",
+		"category": ["Sky Realm Level 3: Dragon Citadel"],
+		"requires": "|Boomerang| AND |Water Rod| AND |Magic Hammer|"
+	},
+	{
+		"name": "Dragon Citadel: Stage 3 Right Chest Down the Stairs",
+		"region": "Dragon Citadel",
+		"category": ["Sky Realm Level 3: Dragon Citadel"],
+		"requires": "|Boomerang| AND |Water Rod| AND |Magic Hammer|"
+	},
+	{
+		"name": "Dragon Citadel: Clear Stage",
+		"region": "Dragon Citadel",
+		"category": ["Sky Realm Level 3: Dragon Citadel"],
+		"requires": "|Boomerang| AND |Water Rod| AND |Magic Hammer|"
+	},
+	{
+		"name": "Dragon Citadel: Clear Challenge One",
+		"region": "Dragon Citadel",
+		"category": ["Sky Realm Level 3: Dragon Citadel", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Water Rod| AND |Magic Hammer|"
+	},
+	{
+		"name": "Dragon Citadel: Clear Challenge Two",
+		"region": "Dragon Citadel",
+		"category": ["Sky Realm Level 3: Dragon Citadel", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Water Rod| AND |Magic Hammer|"
+	},
+	{
+		"name": "Dragon Citadel: Clear Challenge Three",
+		"region": "Dragon Citadel",
+		"category": ["Sky Realm Level 3: Dragon Citadel", "Drablands Challenges"],
+		"requires": "|Boomerang| AND |Water Rod| AND |Magic Hammer|"
+	},
+	{
+		"name": "Sky Temple: Clear Stage",
+		"region": "Sky Temple",
+		"category": ["Sky Realm Level 4: Sky Temple"],
+		"requires": "|Weapons:3|"
+	},
+	{
+		"name": "Sky Temple: Clear Challenge One",
+		"region": "Sky Temple",
+		"category": ["Sky Realm Level 4: Sky Temple", "Drablands Challenges"],
+		"requires": "|Weapons:3|"
+	},
+	{
+		"name": "Sky Temple: Clear Challenge Two",
+		"region": "Sky Temple",
+		"category": ["Sky Realm Level 4: Sky Temple", "Drablands Challenges"],
+		"requires": "|Weapons:3|"
+	},
+	{
+		"name": "Sky Temple: Clear Challenge Three",
+		"region": "Sky Temple",
+		"category": ["Sky Realm Level 4: Sky Temple", "Drablands Challenges"],
+		"requires": "|Weapons:3|"
+	}
+]

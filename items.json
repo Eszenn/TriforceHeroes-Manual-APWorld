@@ -1,0 +1,499 @@
+[
+	{
+		"count":1,
+		"name": "Bear Minimum",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Big Bomb Outfit",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Boomeranger",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Cacto Clothes",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Cheer Outfit",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Cheetah Costume",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Cozy Parka",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Cursed Tights",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Dapper Spinner",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Dunewalker Duds",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Energy Gear",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Fierce Deity Armor",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Fire Blazer",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Goron Garb",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Gust Garb",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Hammerwear",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Hero's Tunic",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Jack of Hearts",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Kokiri Clothes",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Legendary Dress",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Light Armor",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Linebeck's Uniform",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Lucky Loungewear",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Ninja Gi",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Queen of Hearts",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Robowear",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Rupee Regalia",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Serpent's Toga",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Showstopper",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Spin Attack Attire",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Sword Master Suit",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Sword Suit",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Timeless Tunic",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Tingle Tights",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Torrent Robe",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Tri Suit",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Zora Costume",
+		"category": ["Outfits"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Den of Trials",
+		"category": ["Den of Trials"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Woodlands Level 1 - Deku Forest",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Woodlands Level 2 - Buzz Blob Cave",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Woodlands Level 3 - Moblin Base",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Woodlands Level 4 - Forest Temple",
+		"category": ["Levels", "Temples"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Riverside Level 1 - Secret Fortress",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Riverside Level 2 - Abyss of Agony",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Riverside Level 3 - Cove of Transition",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Riverside Level 4 - Water Temple",
+		"category": ["Levels", "Temples"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Volcano Level 1 - Blazing Trail",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Volcano Level 2 - Hinox Mine",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Volcano Level 3 - Den of Flames",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Volcano Level 4 - Fire Temple",
+		"category": ["Levels", "Temples"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Ice Cavern Level 1 - Frozen Plateau",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Ice Cavern Level 2 - Snowball Ravine",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Ice Cavern Level 3 - Silver Shrine",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Ice Cavern Level 4 - Ice Temple",
+		"category": ["Levels", "Temples"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Fortress Level 1 - Sealed Gateway",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Fortress Level 2 - Bomb Storage",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Fortress Level 3 - Training Ground",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Fortress Level 4 - The Lady's Lair",
+		"category": ["Levels", "Temples"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "The Dunes Level 1 - Infinity Dunes",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "The Dunes Level 2 - Stone Corridors",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "The Dunes Level 3 - Gibdo Mausoleum",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "The Dunes Level 4 - Desert Temple",
+		"category": ["Levels", "Temples"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "The Ruins Level 1 - Illusory Mansion",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "The Ruins Level 2 - Palace Noir",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "The Ruins Level 3 - Lone Labyrinth",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "The Ruins Level 4 - Grim Temple",
+		"category": ["Levels", "Temples"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Sky Realm Level 1 - Floating Garden",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Sky Realm Level 2 - Deception Castle",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Sky Realm Level 3 - Dragon Citadel",
+		"category": ["Levels"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Sky Realm Level 4 - Sky Temple",
+		"category": ["Levels", "Temples"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Bomb",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Boomerang",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Bow",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Fire Gloves",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Gripshot",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Gust Jar",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Magic Hammer",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Water Rod",
+		"category": ["Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Lady's Collar",
+		"category": ["Lady's Materials"],
+		"progression_skip_balancing": true
+	},
+	{
+		"count":1,
+		"name": "Lady's Glasses",
+		"category": ["Lady's Materials"],
+		"progression_skip_balancing": true
+	},
+	{
+		"count":1,
+		"name": "Lady's Parasol",
+		"category": ["Lady's Materials"],
+		"progression_skip_balancing": true
+	},
+	{
+		"count": "16",
+		"name": "Stage Skip",
+		"category": [],
+		"filler": true
+	},
+	{
+		"count":1,
+		"category": [],
+		"filler": true
+	}
+]
