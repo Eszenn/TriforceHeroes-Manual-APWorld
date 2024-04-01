@@ -1,4 +1,6 @@
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
+import random
+
 from worlds.AutoWorld import World
 from BaseClasses import MultiWorld, CollectionState
 
@@ -13,6 +15,8 @@ from ..Data import game_table, item_table, location_table, region_table
 
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_option_enabled, get_option_value
+
+from ..hooks.Options import RandomStartingRegion
 
 
 
@@ -39,7 +43,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     locationNamesToRemove = [] # List of location names
     
     # Add your code here to calculate which locations to remove
-    
+
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
@@ -61,10 +65,37 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         # True if the player can access the location
         # CollectionState is defined in BaseClasses
         return True
-    
+
+    def BreakCurseRule(state: CollectionState) -> bool:
+        return (state.has_group("Lady's Materials", player, 3) and
+                state.has_group("Weapons", player, 3) and
+                state.has("Sky Realm", player, 1))
+
+    def AllBossesRule(state: CollectionState) -> bool:
+        return (state.has_group("Areas", player, 8) and
+                state.has_group("Lady's Materials", player, 3) and
+                state.has_group("Weapons", player, 8))
+
+    def DenOfTrialsRule(state: CollectionState) -> bool:
+        return (state.has_group("Weapons", player, 8) and
+                state.has("Den of Trials", player))
+
     ## Common functions:
     # location = world.get_location(location_name, player)
     # location.access_rule = Example_Rule
+
+
+    victoryLocation = multiworld.get_location("__Manual Game Complete__", player)
+    goal = get_option_value(multiworld, player, "goal")
+
+    if goal == 0:
+        victoryLocation.access_rule = BreakCurseRule
+
+    elif goal == 1:
+        victoryLocation.access_rule = AllBossesRule
+
+    elif goal == 2:
+       victoryLocation.access_rule = DenOfTrialsRule
     
     ## Combine rules:
     # old_rule = location.access_rule
@@ -78,13 +109,46 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     itemNamesToRemove = [] # List of item names
     
     # Add your code here to calculate which items to remove.
-    # 
+
+    if is_option_enabled(multiworld, player, "random_starting_region"):
+        regions = [key for key in RandomStartingRegion.regions.keys()]
+        random_region = regions[random.randint(0, 3)]
+
+
+
+        for item in item_pool:
+            if item.name == random_region:
+                multiworld.push_precollected(item)
+                itemNamesToRemove.append(item)
+
+        for itemName in RandomStartingRegion.regions[random_region]["items"]:
+            for item in item_pool:
+                if item.name == itemName:
+                    multiworld.push_precollected(item)
+                    itemNamesToRemove.append(itemName)
+                    break
+
+    else:
+        for item in item_pool:
+            if item.name == "Woodlands":
+                multiworld.push_precollected(item)
+                itemNamesToRemove.append(item)
+
+        for itemName in RandomStartingRegion.regions["Woodlands"]["items"]:
+            for item in item_pool:
+                if item.name == itemName:
+                    multiworld.push_precollected(item)
+                    itemNamesToRemove.append(itemName)
+                    break
+
+
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
     
     for itemName in itemNamesToRemove:
-        item = next(i for i in item_pool if i.name == itemName)
-        item_pool.remove(item)
+        for item in item_pool:
+            if item.name == itemName:
+                item_pool.remove(item)
     
     return item_pool
     

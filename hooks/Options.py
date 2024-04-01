@@ -26,16 +26,38 @@ from ..Helpers import is_option_enabled, get_option_value
 # To add an option, use the before_options_defined hook below and something like this:
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
 #
-class TotalCharactersToWinWith(Range):
-    """Instead of having to beat the game with all characters, you can limit locations to a subset of character victory locations."""
-    display_name = "Number of characters to beat the game with before victory"
-    range_start = 10
-    range_end = 50
-    default = 50
+class Goal(Choice):
+    """The goal that must be achieved in order to mark your world as completed."""
+    display_name = "Goal"
+    option_break_curse = 0
+    option_all_bosses = 1
+    option_den_of_trials = 2
+    default = 0
+
+class RandomStartingRegion(Toggle):
+    """Start in a random starting region with all levels and items for that region"""
+    display_name = "Randomize starting region?"
+
+    regions = {
+        "Woodlands": {
+            "items": ["Bow", "Bomb"]
+        },
+        "Riverside": {
+            "items": ["Bow", "Water Rod", "Gripshot"]
+        },
+        "Volcano": {
+            "items": ["Boomerang", "Bow", "Gust Jar"]
+            },
+        "Ice Cavern": {
+            "items": ["Fire Gloves", "Boomerang", "Magic Hammer"]
+        }
+    }
 
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
+    options["goal"] = Goal
+    options["random_starting_region"] = RandomStartingRegion
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
