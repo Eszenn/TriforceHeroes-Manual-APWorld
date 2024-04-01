@@ -224,199 +224,7 @@
 	{
 		"count":1,
 		"name": "Den of Trials",
-		"category": ["Den of Trials"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Woodlands Level 1 - Deku Forest",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Woodlands Level 2 - Buzz Blob Cave",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Woodlands Level 3 - Moblin Base",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Woodlands Level 4 - Forest Temple",
-		"category": ["Levels", "Temples"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Riverside Level 1 - Secret Fortress",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Riverside Level 2 - Abyss of Agony",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Riverside Level 3 - Cove of Transition",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Riverside Level 4 - Water Temple",
-		"category": ["Levels", "Temples"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Volcano Level 1 - Blazing Trail",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Volcano Level 2 - Hinox Mine",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Volcano Level 3 - Den of Flames",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Volcano Level 4 - Fire Temple",
-		"category": ["Levels", "Temples"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Ice Cavern Level 1 - Frozen Plateau",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Ice Cavern Level 2 - Snowball Ravine",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Ice Cavern Level 3 - Silver Shrine",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Ice Cavern Level 4 - Ice Temple",
-		"category": ["Levels", "Temples"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Fortress Level 1 - Sealed Gateway",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Fortress Level 2 - Bomb Storage",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Fortress Level 3 - Training Ground",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Fortress Level 4 - The Lady's Lair",
-		"category": ["Levels", "Temples"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "The Dunes Level 1 - Infinity Dunes",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "The Dunes Level 2 - Stone Corridors",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "The Dunes Level 3 - Gibdo Mausoleum",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "The Dunes Level 4 - Desert Temple",
-		"category": ["Levels", "Temples"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "The Ruins Level 1 - Illusory Mansion",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "The Ruins Level 2 - Palace Noir",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "The Ruins Level 3 - Lone Labyrinth",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "The Ruins Level 4 - Grim Temple",
-		"category": ["Levels", "Temples"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Sky Realm Level 1 - Floating Garden",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Sky Realm Level 2 - Deception Castle",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Sky Realm Level 3 - Dragon Citadel",
-		"category": ["Levels"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Sky Realm Level 4 - Sky Temple",
-		"category": ["Levels", "Temples"],
+		"category": ["Areas"],
 		"progression": true
 	},
 	{
@@ -493,7 +301,50 @@
 	},
 	{
 		"count":1,
-		"category": [],
-		"filler": true
+		"name": "Woodlands",
+		"category": ["Areas"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Riverside",
+		"category": ["Areas"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Volcano",
+		"category": ["Areas"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Ice Cavern",
+		"category": ["Areas"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Fortress",
+		"category": ["Areas"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "The Dunes",
+		"category": ["Areas"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "The Ruins",
+		"category": ["Areas"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Sky Realm",
+		"category": ["Areas"],
+		"progression": true
 	}
 ]
