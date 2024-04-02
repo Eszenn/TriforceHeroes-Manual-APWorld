@@ -346,5 +346,11 @@
 		"name": "Sky Realm",
 		"category": ["Areas"],
 		"progression": true
+	},
+	{
+		"count": 1,
+		"name": "Victory",
+		"category": [],
+		"progression": true
 	}
 ]

@@ -1,10 +1,30 @@
 [
 	{
-		"victory": true,
 		"name": "Victory",
-		"region": "Hytopia",
 		"category": [],
-		"requires": "|@Lady's Materials:3| AND |Sky Realm| AND |@Weapons:3|"
+		"requires": "|Victory|",
+		"victory": true
+	},
+	{
+		"name": "Break the Curse on Princess Styla",
+		"region": "Hytopia",
+		"category": [".Victory Condition"],
+		"requires": "|@Lady's Materials:3| AND |Sky Realm| AND |@Weapons:3|",
+		"place_item": ["Victory"]
+	},
+	{
+		"name": "Defeat all 8 Bosses",
+		"region": "Hytopia",
+		"category": ["Victory Condition"],
+		"requires": "|@Weapons:8| AND |@Lady's Materials:3| AND |@Areas:8|",
+		"place_item": ["Victory"]
+	},
+	{
+		"name": "Clear the Den of Trials",
+		"region": "Den of Trials",
+		"category": ["Victory Condition"],
+		"requires": "|@Weapons:8|",
+		"place_item": ["Victory"]
 	},
 	{
 		"name":	"Deku Forest - Stage 2 North Chest",
