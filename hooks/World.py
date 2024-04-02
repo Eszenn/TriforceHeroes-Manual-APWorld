@@ -43,12 +43,26 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     locationNamesToRemove = [] # List of location names
     
     # Add your code here to calculate which locations to remove
+    goal = get_option_value(multiworld, player, "goal")
+
+    if goal == 0:
+        locationNamesToRemove.append("Defeat all 8 Bosses")
+        locationNamesToRemove.append("Clear the Den of Trials")
+
+    elif goal == 1:
+        locationNamesToRemove.append("Break the Curse on Princess Styla")
+        locationNamesToRemove.append("Clear the Den of Trials")
+
+    elif goal == 2:
+        locationNamesToRemove.append("Break the Curse on Princess Styla")
+        locationNamesToRemove.append("Defeat all 8 Bosses")
 
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
                 if location.name in locationNamesToRemove:
                     region.locations.remove(location)
+
     if hasattr(multiworld, "clear_location_cache"):
         multiworld.clear_location_cache()
 
@@ -59,43 +73,17 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to modify the access rules for a given location
-    
+
     def Example_Rule(state: CollectionState) -> bool:
-        # Calculated rules take a CollectionState object and return a boolean 
+        # Calculated rules take a CollectionState object and return a boolean
         # True if the player can access the location
         # CollectionState is defined in BaseClasses
         return True
-
-    def BreakCurseRule(state: CollectionState) -> bool:
-        return (state.has_group("Lady's Materials", player, 3) and
-                state.has_group("Weapons", player, 3) and
-                state.has("Sky Realm", player, 1))
-
-    def AllBossesRule(state: CollectionState) -> bool:
-        return (state.has_group("Areas", player, 8) and
-                state.has_group("Lady's Materials", player, 3) and
-                state.has_group("Weapons", player, 8))
-
-    def DenOfTrialsRule(state: CollectionState) -> bool:
-        return (state.has_group("Weapons", player, 8) and
-                state.has("Den of Trials", player))
 
     ## Common functions:
     # location = world.get_location(location_name, player)
     # location.access_rule = Example_Rule
 
-
-    victoryLocation = multiworld.get_location("__Manual Game Complete__", player)
-    goal = get_option_value(multiworld, player, "goal")
-
-    if goal == 0:
-        victoryLocation.access_rule = BreakCurseRule
-
-    elif goal == 1:
-        victoryLocation.access_rule = AllBossesRule
-
-    elif goal == 2:
-       victoryLocation.access_rule = DenOfTrialsRule
     
     ## Combine rules:
     # old_rule = location.access_rule
@@ -137,6 +125,12 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
                     itemNamesToRemove.append(itemName)
                     break
 
+    if get_option_value(world, player, "goal") != 2:
+        for item in item_pool:
+            if item.name == "Den of Trials":
+                item_pool.remove(item)
+                break
+
 
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
@@ -144,7 +138,6 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     for itemName in itemNamesToRemove:
         for item in item_pool:
             if item.name == itemName:
-                multiworld.push_precollected(item)
                 item_pool.remove(item)
     
     return item_pool
