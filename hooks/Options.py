@@ -25,17 +25,30 @@ from ..Helpers import is_option_enabled, get_option_value
 
 # To add an option, use the before_options_defined hook below and something like this:
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
-#
+
 class Goal(Choice):
-    """The goal that must be achieved in order to mark your world as completed."""
+    """
+    The goal that must be achieved in order to mark your world as completed.
+    Break Curse requires Sky Realm, any 3 weapons, and all 3 of the Lady's Materials.
+    All Bosses requires all areas and all weapons.
+    Den of Trials requires Den of Trials and all weapons.
+    """
     display_name = "Goal"
     option_break_curse = 0
     option_all_bosses = 1
     option_den_of_trials = 2
     default = 0
 
+
 class RandomStartingRegion(Toggle):
-    """Start in a random starting region with all levels and items for that region"""
+    """
+    Start in a random starting region with all items for that region.
+    Possible starting regions are: Woodlands, Riverside, Volcano, Ice Cavern.
+    Woodlands starts with the Bow and Bombs.
+    Riverside starts with the Bow, Gripshot, and Water Rod.
+    Volcano starts with the Bow, Boomerang, and Gust Jar.
+    Ice Cavern starts with the Boomerang, Fire Gloves, and Magic Hammer.
+    """
     display_name = "Randomize starting region?"
 
     regions = {
