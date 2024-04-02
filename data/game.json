@@ -1,2 +1,6 @@
 
-	{"game": "TriforceHeroes","creator": "Eszenn","filler_item_name": "Filler"}
+	{
+      "game": "TriforceHeroes",
+      "creator": "Eszenn",
+      "filler_item_name": "Red Rupee"
+    }
