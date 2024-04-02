@@ -106,7 +106,7 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
 # The complete item pool prior to being set for generation is provided here, in case you want to make changes to it
 def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     # Use this hook to remove items from the item pool
-    itemNamesToRemove = [] # List of item names
+    itemNamesToRemove = ["Hero's Tunic"] # List of item names
     
     # Add your code here to calculate which items to remove.
 
@@ -114,30 +114,26 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
         regions = [key for key in RandomStartingRegion.regions.keys()]
         random_region = regions[random.randint(0, 3)]
 
-
-
         for item in item_pool:
             if item.name == random_region:
-                multiworld.push_precollected(item)
-                itemNamesToRemove.append(item)
+                itemNamesToRemove.append(random_region)
+                break
 
         for itemName in RandomStartingRegion.regions[random_region]["items"]:
             for item in item_pool:
                 if item.name == itemName:
-                    multiworld.push_precollected(item)
                     itemNamesToRemove.append(itemName)
                     break
 
     else:
         for item in item_pool:
             if item.name == "Woodlands":
-                multiworld.push_precollected(item)
-                itemNamesToRemove.append(item)
+                itemNamesToRemove.append("Woodlands")
+                break
 
         for itemName in RandomStartingRegion.regions["Woodlands"]["items"]:
             for item in item_pool:
                 if item.name == itemName:
-                    multiworld.push_precollected(item)
                     itemNamesToRemove.append(itemName)
                     break
 
@@ -148,6 +144,7 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     for itemName in itemNamesToRemove:
         for item in item_pool:
             if item.name == itemName:
+                multiworld.push_precollected(item)
                 item_pool.remove(item)
     
     return item_pool
