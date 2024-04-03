@@ -8,21 +8,21 @@
 	{
 		"name": "Break the Curse on Princess Styla",
 		"region": "Hytopia",
-		"category": [".Victory Condition"],
+		"category": ["~Victory Condition~"],
 		"requires": "|@Lady's Materials:3| AND |Sky Realm| AND |@Weapons:3|",
 		"place_item": ["Victory"]
 	},
 	{
 		"name": "Defeat all 8 Bosses",
 		"region": "Hytopia",
-		"category": ["Victory Condition"],
-		"requires": "|@Weapons:8| AND |@Lady's Materials:3| AND |@Areas:8|",
+		"category": ["~Victory Condition~"],
+		"requires": "|@Weapons:8| AND |@Areas:8|",
 		"place_item": ["Victory"]
 	},
 	{
 		"name": "Clear the Den of Trials",
 		"region": "Den of Trials",
-		"category": ["Victory Condition"],
+		"category": ["~Victory Condition~"],
 		"requires": "|@Weapons:8|",
 		"place_item": ["Victory"]
 	},
@@ -215,7 +215,7 @@
 	{
 		"name": "Abyss of Agony - Clear Stage",
 		"region": "Riverside",
-		"category": ["Riverside Level 2 - Abyss of Agony", "Drablands Challenges"],
+		"category": ["Riverside Level 2 - Abyss of Agony"],
 		"requires": "|Bow| AND |Water Rod|"
 	},
 	{
@@ -299,7 +299,7 @@
 	{
 		"name": "Blazing Trail - Stage 3 Chest Across the Lava Lake",
 		"region": "Volcano",
-		"category": ["Volcano Level 1 - Blazing Trail", "Drablands Challenges"],
+		"category": ["Volcano Level 1 - Blazing Trail"],
 		"requires": "|Boomerang|"
 	},
 	{
@@ -467,7 +467,7 @@
 	{
 		"name": "Frozen Plateau - Clear Challenge Three",
 		"region": "Ice Cavern",
-		"category": ["Ice Cavern Level 1 - Frozen Plateau"],
+		"category": ["Ice Cavern Level 1 - Frozen Plateau", "Drablands Challenges"],
 		"requires": "|Fire Gloves|"
 	},
 	{
@@ -737,19 +737,19 @@
 	{
 		"name": "Infinity Dunes - Clear Challenge One",
 		"region": "The Dunes",
-		"category": ["The Dunes Level 1 - Infinity Dunes"],
+		"category": ["The Dunes Level 1 - Infinity Dunes", "Drablands Challenges"],
 		"requires": "|Gust Jar| AND |Water Rod|"
 	},
 	{
 		"name": "Infinity Dunes - Clear Challenge Two",
 		"region": "The Dunes",
-		"category": ["The Dunes Level 1 - Infinity Dunes"],
+		"category": ["The Dunes Level 1 - Infinity Dunes", "Drablands Challenges"],
 		"requires": "|Gust Jar| AND |Water Rod|"
 	},
 	{
 		"name": "Infinity Dunes - Clear Challenge Three",
 		"region": "The Dunes",
-		"category": ["The Dunes Level 1 - Infinity Dunes"],
+		"category": ["The Dunes Level 1 - Infinity Dunes", "Drablands Challenges"],
 		"requires": "|Gust Jar| AND |Water Rod|"
 	},
 	{
