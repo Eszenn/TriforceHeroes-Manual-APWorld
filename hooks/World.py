@@ -125,7 +125,7 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
                     itemNamesToRemove.append(itemName)
                     break
 
-    if get_option_value(world, player, "goal") != 2:
+    if get_option_value(multiworld, player, "goal") != 2:
         for item in item_pool:
             if item.name == "Den of Trials":
                 item_pool.remove(item)
@@ -138,6 +138,7 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     for itemName in itemNamesToRemove:
         for item in item_pool:
             if item.name == itemName:
+                multiworld.push_precollected(item)
                 item_pool.remove(item)
     
     return item_pool
