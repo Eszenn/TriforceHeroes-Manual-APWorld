@@ -53,24 +53,31 @@ class RandomStartingRegion(Toggle):
 
     regions = {
         "Woodlands": {
-            "items": ["Bow", "Bomb"]
+            "items": ["Weapon - Bow", "Weapon - Bomb"]
         },
         "Riverside": {
-            "items": ["Bow", "Water Rod", "Gripshot"]
+            "items": ["Weapon - Bow", "Weapon - Water Rod", "Weapon - Gripshot"]
         },
         "Volcano": {
-            "items": ["Boomerang", "Bow", "Gust Jar"]
+            "items": ["Weapon - Boomerang", "Weapon - Bow", "Weapon - Gust Jar"]
             },
         "Ice Cavern": {
-            "items": ["Fire Gloves", "Boomerang", "Magic Hammer"]
+            "items": ["Weapon - Fire Gloves", "Weapon - Boomerang", "Weapon - Magic Hammer"]
         }
     }
 
+
+class RandomStartingOutfit(Toggle):
+    """
+    Start with a random outfit.
+    """
+    display_name = "Randomize Starting Outfit?"
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
     options["goal"] = Goal
     options["random_starting_region"] = RandomStartingRegion
+    options["random_starting_outfit"] = RandomStartingOutfit
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
