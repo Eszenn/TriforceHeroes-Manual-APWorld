@@ -111,13 +111,13 @@
 		"requires": "|Weapon - Bomb|"
 	},
 	{
-		"name": "Moblin Base - Stage 2 Chest Behind Right Weapon - Bombable Wall",
+		"name": "Moblin Base - Stage 2 Chest Behind Right Bombable Wall",
 		"region": "Woodlands",
 		"category": ["Woodlands Level 3 - Moblin Base"],
 		"requires": "|Weapon - Bow| AND |Weapon - Bomb|"
 	},
 	{
-		"name": "Moblin Base - Stage 2 Chest Behind Middle Weapon - Bombable Wall",
+		"name": "Moblin Base - Stage 2 Chest Behind Middle Bombable Wall",
 		"region": "Woodlands",
 		"category": ["Woodlands Level 3 - Moblin Base"],
 		"requires": "|Weapon - Bow| AND |Weapon - Bomb|"
@@ -298,12 +298,6 @@
 	},
 	{
 		"name": "Blazing Trail - Stage 3 Chest Across the Lava Lake",
-		"region": "Volcano",
-		"category": ["Volcano Level 1 - Blazing Trail"],
-		"requires": "|Weapon - Boomerang|"
-	},
-	{
-		"name": "Blazing Trail - Stage 2 South Chest past Gauntlet",
 		"region": "Volcano",
 		"category": ["Volcano Level 1 - Blazing Trail"],
 		"requires": "|Weapon - Boomerang|"
@@ -525,7 +519,7 @@
 		"requires": "|Weapon - Magic Hammer|"
 	},
 	{
-		"name": "Silver Shrine - Stage 2 Chest on Ice",
+		"name": "Silver Shrine - Stage 3 Chest on Ice",
 		"region": "Ice Cavern",
 		"category": ["Ice Cavern Level 3 - Silver Shrine"],
 		"requires": "|Weapon - Magic Hammer|"
@@ -633,33 +627,33 @@
 		"requires": "|Weapon - Boomerang| AND |Weapon - Gust Jar|"
 	},
 	{
-		"name": "Weapon - Bomb Storage - Stage 1 Chest on Narrow Ledge",
+		"name": "Bomb Storage - Stage 1 Chest on Narrow Ledge",
 		"region": "Fortress",
-		"category": ["Fortress Level 2 - Weapon - Bomb Storage"],
+		"category": ["Fortress Level 2 - Bomb Storage"],
 		"requires": "|Weapon - Bomb| AND |Weapon - Gust Jar|"
 	},
 	{
-		"name": "Weapon - Bomb Storage - Clear Stage",
+		"name": "Bomb Storage - Clear Stage",
 		"region": "Fortress",
-		"category": ["Fortress Level 2 - Weapon - Bomb Storage"],
+		"category": ["Fortress Level 2 - Bomb Storage"],
 		"requires": "|Weapon - Bomb| AND |Weapon - Gust Jar|"
 	},
 	{
-		"name": "Weapon - Bomb Storage - Clear Challenge One",
+		"name": "Bomb Storage - Clear Challenge One",
 		"region": "Fortress",
-		"category": ["Fortress Level 2 - Weapon - Bomb Storage", "Drablands Challenges"],
+		"category": ["Fortress Level 2 - Bomb Storage", "Drablands Challenges"],
 		"requires": "|Weapon - Bomb| AND |Weapon - Gust Jar|"
 	},
 	{
-		"name": "Weapon - Bomb Storage - Clear Challenge Two",
+		"name": "Bomb Storage - Clear Challenge Two",
 		"region": "Fortress",
-		"category": ["Fortress Level 2 - Weapon - Bomb Storage", "Drablands Challenges"],
+		"category": ["Fortress Level 2 - Bomb Storage", "Drablands Challenges"],
 		"requires": "|Weapon - Bomb| AND |Weapon - Gust Jar|"
 	},
 	{
-		"name": "Weapon - Bomb Storage - Clear Challenge Three",
+		"name": "Bomb Storage - Clear Challenge Three",
 		"region": "Fortress",
-		"category": ["Fortress Level 2 - Weapon - Bomb Storage", "Drablands Challenges"],
+		"category": ["Fortress Level 2 - Bomb Storage", "Drablands Challenges"],
 		"requires": "|Weapon - Bomb| AND |Weapon - Gust Jar|"
 	},
 	{
